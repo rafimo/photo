@@ -1,0 +1,29 @@
+<div id="header" xmlns:jsp="http://java.sun.com/JSP/Page" 
+    xmlns:spring="http://www.springframework.org/tags"  version="2.0"> 
+    <jsp:directive.page contentType="text/html;charset=UTF-8" /> 
+    <jsp:output omit-xml-declaration="yes" /> 
+ 
+      <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+              <div class="container" style="width: auto;">
+                  <ul class="nav">
+                      <li class="dropdown">
+                      <a href="#"
+                          class="dropdown-toggle"
+                          data-toggle="dropdown">
+                          <table><tr>
+                                  <td class="logo"></td>
+                                  <td class="application_name">MO Photography<br/>
+                                      <div class="subtitle">Saving memories for an eternity</div></td>
+                                  <td><b class="caret"></b></td>
+                          </tr></table>
+                      </a>
+                      <ul class="dropdown-menu">
+                            <li>Some Link</li>
+                      </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div> 
+</div>   
